@@ -1,0 +1,12 @@
+ .allservice-btn{
+    cursor: pointer;
+   transition: ease-out 0.5s;
+ 
+}
+
+.allservice-btn:hover {
+    color: white;
+    box-shadow: inset 150px 0 0 0 #f87238ec;
+ 
+  }
+  
