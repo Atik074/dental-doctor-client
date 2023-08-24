@@ -1,0 +1,43 @@
+ [
+      {
+       
+        "name": "Dr. Sarah Smith",
+        "specialty": "MBBS,General Dentistry",
+        "location": "123 Main Street, Cityville",
+        "phone": "123-456-7890",
+        "email": "sarah.smith@dentalclinic.com",
+        "service_title":"electro gastro therapy" ,
+        "services_type":"cavity protection",
+        "details":"Cavity prevention involves reducing or even eliminating the chance of decay affecting a specific tooth. Cavity prevention is ideal for both adults and children as it allows for you to have healthy teeth. It can be beneficial in preventing more invasive procedures from happening that are needed due to decay." ,
+        "img": "https://st.depositphotos.com/4575983/56371/i/600/depositphotos_563710324-stock-photo-doctor-dentist-holds-artificial-jaw.jpg",
+        "price": "$300",
+        "education": "DDS, University of Dental Sciences"
+      },
+      {
+      
+        "name": "Dr. John Doe",
+        "specialty": "MBBS ,Orthodontics",
+        "location": "456 Elm Avenue, Townville",
+        "phone": "987-654-3210",
+        "email": "john.doe@orthoclub.com",
+        "services_type":"cosmetic dentisty",
+        "img": "https://st3.depositphotos.com/1773141/35568/i/450/depositphotos_355680658-stock-photo-dentist-showing-jaw-model-dentist.jpg",
+        "price": "$500",
+        "education": "DMD, Orthodontics Institute"
+      },
+      {
+       
+        "name": "Dr. Emily Johnson",
+        "specialty": "MBBS , Pediatric Dentistry",
+        "location": "789 Oak Street, Villageton",
+        "phone": "567-890-1234",
+        "email": "emily.johnson@kidsmiles.org",
+        "services_type": "oral surgery",
+        "img": "dr_emily_johnson.jpg",
+        "price": "$1000",
+        "education": "MDent, Children's Dentistry Academy"
+      }
+      
+    ]
+  
+  
