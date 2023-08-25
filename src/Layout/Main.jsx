@@ -1,11 +1,15 @@
 import React from 'react';
 import Navbar from '../Pages/Home/Navbar/Navbar';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 
 const Main = () => {
+    const location = useLocation()
+    console.log(location)
+    const withoutHeaderFooter = location.pathname.includes('/signin') || location.pathname.includes('/signUp')
     return (
         <div>
-             <Navbar></Navbar>
+              {withoutHeaderFooter ||<Navbar></Navbar> }
+             
             <Outlet/>
        
         </div>

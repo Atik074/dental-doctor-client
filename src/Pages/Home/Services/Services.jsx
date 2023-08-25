@@ -6,8 +6,6 @@ import ServicesTab from './ServicesTab';
 import {GoClock,GoLocation} from 'react-icons/Go';  
 import { FaOdnoklassniki } from 'react-icons/fa'
 
- 
-
 
 const Services = () => {
     const [services] = useServices([])
@@ -30,7 +28,8 @@ const Services = () => {
               <h1 className='text-4xl font-bold mb-2'>Our Services</h1>
             <p className='text-[19px] mb-8 '>One of the most significant improvements for dental practices has been implementing two-way text messaging with their patients. It's no surprise that this form of communication is still the most popular, thanks to smart devices like mobile phones and tablets.Check out these top ten ways that text messaging can benefit your practice</p>
         <div>
-
+          
+   {/* react tab  */}
    <Tabs>
     <TabList>
       <Tab>
@@ -59,6 +58,8 @@ const Services = () => {
 
      </div>
 
+
+    {/* three card desing */}
     <div className='my-16 flex space-x-10 justify-center items-center text-white'>
        <div className='flex bg-[#07332F] px-8 p-4 justify-center items-center w-[364px] h-[202px] rounded-xl'>
           <p className='text-4xl -mt-12'><GoClock></GoClock></p>
