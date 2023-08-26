@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../AuthProvider/AuthProvider';
 import Swal from 'sweetalert2';
+import Icons from '../../Components/Icons/Icons';
 
 
 
@@ -37,7 +38,7 @@ const onSubmit = data =>{
     <div className="text-center lg:text-left w-1/2">
            <img className='rounded-xl' src="https://thedentistsdorridge.co.uk/wp-content/uploads/2019/11/be_a_denist.jpg" alt="" />
     </div>
-    <form onSubmit={handleSubmit(onSubmit)} className="card w-1/2 max-w-md shadow-3xl bg-base-100 mt-14">
+    <form onSubmit={handleSubmit(onSubmit)} className="card w-1/2 max-w-md shadow-3xl bg-base-100 mt-5 ">
       <div className="card-body">
       <h1 className='text-center text-3xl font-bold my-3'>Sign up to Doc  house</h1>
         <div className="form-control ">
@@ -76,15 +77,21 @@ const onSubmit = data =>{
 
         </div>
         <div className="form-control">
-        <input className='border rounded-lg bg-[#F7A582] px-5 py-2 text-xl text-white mb-3 ' type="submit" value="Sign Up" />
+        <input className='border rounded-lg bg-[#F7A582] px-5 py-2 text-xl text-white mb-3' type="submit" value="Sign Up" />
         </div>
         <p className='text-[16px] text-center'>Already registered ? Go to <Link className='uppercase text-red-800 font-medium hover:underline' to='/signin'>Sign in</Link></p>
       </div>
+
     </form>
+
   </div>
 </div>
 
 
+<div className='mt-8'>
+  <Icons/>
+</div>
+  
  </div>
   
  
